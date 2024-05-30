@@ -1,0 +1,26 @@
+# 1 "/Users/niall/development/cpp-final-benchmark-code/multi-file/Sensor.cpp"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 446 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "/Users/niall/development/cpp-final-benchmark-code/multi-file/Sensor.cpp" 2
+# 1 "/Users/niall/development/cpp-final-benchmark-code/multi-file/Sensor.h" 1
+
+
+class Sensor
+{
+public:
+   virtual int get_value();
+   virtual void set_ID(int);
+private:
+
+};
+# 2 "/Users/niall/development/cpp-final-benchmark-code/multi-file/Sensor.cpp" 2
+
+void Sensor::set_ID([[maybe_unused]] int i){
+}
+
+int Sensor::get_value() {
+  return 42;
+}
